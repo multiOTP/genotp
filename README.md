@@ -10,6 +10,9 @@ Generic 2FA OTP generator (OATH/HOTP, OATH/TOTP, mOTP)
 - RFC6238 (OATH/TOTP Time-Based One-Time Password)
 - Mobile-OTP (mOTP https://motp.sourceforge.net/)
 
+## Last Updated
+This README was last updated on 2024-11-23.
+
 ---
 
 ## Installation
@@ -67,3 +70,16 @@ console.log(otp.generate({type: 'motp',
                           pincode: '1234',
                         });
 ```
+
+---
+
+## Credits
+
+Thanks to the following contributors:
+- [Erik Metz](https://github.com/erik-metz)
+
+## License
+
+This project is licensed under the LGPL-3.0-or-later license.
+
+
